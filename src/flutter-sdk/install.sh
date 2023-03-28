@@ -35,3 +35,4 @@ apt clean
 # Verify installation
 su - "$_REMOTE_USER" 
 flutter doctor
+chown -R "$_REMOTE_USER:$_REMOTE_USER" "$FLUTTER_HOME"
